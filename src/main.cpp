@@ -383,10 +383,7 @@ Nano::~Nano() {
 }
 
 void Nano::PrintUsage() {
-
-    const char * program = strrchr( my_argv[0], '/' );
-    program = !program ? my_argv[0] : program + 1;
-    this->exename = program;
+    this->exename = "nanotts";
 
     printf( "usage: %s options \n", exename );
 
