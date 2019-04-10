@@ -388,7 +388,7 @@ void Nano::PrintUsage() {
     program = !program ? my_argv[0] : program + 1;
     this->exename = program;
 
-    printf( "usage: %s (options)\n", exename );
+    printf( "usage: %s options \n", exename );
 
     char line1[ 100 ];
     char line2[ 100 ];
